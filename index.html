@@ -3,38 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weatherly</title>
   </head>
   <body>
-    <header>
-      <h1>Weatherly</h1>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h2>Paris</h2>
-        <p>
-          Tuesday 14:49, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 13 km/h
-        </p>
-      </div>
-      <div>⛅15ºC</div>
-    </main>
+    <h1>Weatherly</h1>
+    <div class="app-container">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
 
-    <footer>
-      Weatherly was coded by
-      <a href="https://github.com/i-alianne" target="_blank"
-        >Alianne Dosal Allison</a
-      >
-      and is open-sourced on
-      <a href="https://github.com/i-alianne?tab=repositories" target="_blank"
-        >GitHub</a
-      >
-      and hosted on <a href="https://weatherly-live.netlify.app/">Netlify</a>
-    </footer>
+      <main>
+        <div>
+          <h2>Paris</h2>
+          <p>
+            Tuesday 14:49, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 13 km/h
+          </p>
+        </div>
+        <div>⛅15ºC</div>
+      </main>
+
+      <footer>
+        Weatherly was coded by
+        <a href="https://github.com/i-alianne" target="_blank"
+          >Alianne Dosal Allison</a
+        >
+        and is open-sourced on
+        <a href="https://github.com/i-alianne?tab=repositories" target="_blank"
+          >GitHub</a
+        >
+        and hosted on <a href="https://weatherly-live.netlify.app/">Netlify</a>
+      </footer>
+    </div>
   </body>
 </html>
