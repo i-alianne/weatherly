@@ -20,3 +20,27 @@ h1 {
   box-shadow: 0 10px 20px rgba(132, 170, 189, 0.8);
   border-radius: 16px;
 }
+
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+
+.search-form-input {
+  background: rgba(166, 193, 238, 0.1);
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.search-form-button {
+  background: rgb(166, 193, 238);
+  border: none;
+  padding: 15px 30px;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  margin-left: 5px;
+}
