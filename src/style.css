@@ -81,7 +81,7 @@ main {
 .weather-app-details {
   font-weight: 300;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .weather-app-details strong {
@@ -89,9 +89,9 @@ main {
 }
 
 .weather-app-icon {
-  font-size: 40px;
+  width: 75px;
   position: relative;
-  top: -15px;
+  top: 10px;
 }
 
 .weather-app-value {
