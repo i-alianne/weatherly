@@ -82,6 +82,7 @@ main {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
+  color: rgba(39, 33, 66, 0.8);
 }
 
 .weather-app-details strong {
@@ -114,10 +115,10 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(39, 33, 66, 0.8);
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .weather-forecast-icon {
@@ -129,7 +130,7 @@ main {
 .weather-forecast-temperatures {
   text-align: center;
   color: #f65282;
-  margin-top: 10px;
+  margin-top: 5px;
   display: flex;
   justify-content: center;
 }
