@@ -1,10 +1,6 @@
 body {
-  background: linear-gradient(
-      to top,
-      rgb(251, 194, 235) 0%,
-      rgb(166, 193, 238) 100%
-    )
-    fixed;
+  background-image: url("/img/sky-background.jpg");
+  background-size: cover;
   font-family: "Roboto", sans-serif;
 }
 
@@ -40,7 +36,7 @@ header {
 }
 
 .search-form-input {
-  background: rgba(166, 193, 238, 0.1);
+  background: rgba(166, 193, 238, 0.3);
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -49,7 +45,7 @@ header {
 }
 
 .search-form-button {
-  background: rgb(166, 193, 238);
+  background: #498bc8;
   border: none;
   padding: 15px 30px;
   border-radius: 6px;
